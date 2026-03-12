@@ -1,73 +1,114 @@
-# Welcome to your Lovable project
+# 🎬 Cinematch AI – Movie Recommender
 
-## Project info
+Cinematch AI is an intelligent movie recommendation web application that suggests movies based on user preferences. The application analyzes user choices through an interactive quiz and provides personalized movie recommendations.
 
-**URL**: https://lovable.dev/projects/c5cab5f5-d4b4-4e70-9581-29ae4b0ff66f
+---
 
-## How can I edit this code?
+## 🚀 Features
 
-There are several ways of editing your application.
+* 🎥 Personalized movie recommendations
+* 🧠 Quiz-based preference analysis
+* 🔎 Movie search functionality
+* 📊 Interactive dashboard
+* 🌙 Dark / Light theme support
+* ⚡ Fast and responsive UI
 
-**Use Lovable**
+---
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/c5cab5f5-d4b4-4e70-9581-29ae4b0ff66f) and start prompting.
+## 🛠 Tech Stack
 
-Changes made via Lovable will be committed automatically to this repo.
+**Frontend**
 
-**Use your preferred IDE**
+* React
+* TypeScript
+* Vite
+* Tailwind CSS
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+**Development Tools**
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+* Node.js
+* npm
+* Git & GitHub
 
-Follow these steps:
+---
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+## 📂 Project Structure
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+```
+src/
+ ├── components/       # UI components
+ ├── pages/            # Application pages
+ ├── data/             # Movie dataset
+ ├── utils/            # Helper functions
+ ├── hooks/            # Custom hooks
+ └── App.tsx           # Main application entry
+```
 
-# Step 3: Install the necessary dependencies.
-npm i
+---
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
+## ⚙️ Installation & Setup
+
+Clone the repository:
+
+```
+git clone https://github.com/ayush2309-wq/cinematch-ai-movie-recommender.git
+```
+
+Navigate to the project folder:
+
+```
+cd cinematch-ai-movie-recommender
+```
+
+Install dependencies:
+
+```
+npm install
+```
+
+Run the development server:
+
+```
 npm run dev
 ```
 
-**Edit a file directly in GitHub**
+The application will start at:
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+```
+http://localhost:5173
+```
 
-**Use GitHub Codespaces**
+---
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+## 📸 Screenshots
 
-## What technologies are used for this project?
+Add screenshots of your application UI here.
 
-This project is built with:
+Example:
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+* Home Page
+* Movie Recommendation Page
+* Quiz Interface
 
-## How can I deploy this project?
+---
 
-Simply open [Lovable](https://lovable.dev/projects/c5cab5f5-d4b4-4e70-9581-29ae4b0ff66f) and click on Share -> Publish.
+## 🚀 Future Improvements
 
-## Can I connect a custom domain to my Lovable project?
+* Integrate machine learning recommendation model
+* Connect with movie APIs like TMDB
+* Add user authentication
+* Save favorite movies
+* Improve recommendation accuracy
 
-Yes, you can!
+---
 
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
+## 👨‍💻 Author
 
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/tips-tricks/custom-domain#step-by-step-guide)
+**Ayush Chute**
+
+GitHub:
+https://github.com/ayush2309-wq
+
+---
+
+⭐ If you like this project, consider giving it a star on GitHub!
